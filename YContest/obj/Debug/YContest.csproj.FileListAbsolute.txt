@@ -1,0 +1,16 @@
+E:\Projects\YContest\YContest\bin\Debug\YContest.exe.config
+E:\Projects\YContest\YContest\bin\Debug\YContest.exe
+E:\Projects\YContest\YContest\bin\Debug\YContest.pdb
+E:\Projects\YContest\YContest\obj\Debug\YContest.csprojResolveAssemblyReference.cache
+E:\Projects\YContest\YContest\obj\Debug\YContest.exe
+E:\Projects\YContest\YContest\obj\Debug\YContest.pdb
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\YContest.exe.config
+E:\PathToDarkness\Projects\YBlitz\YContest\obj\Debug\YContest.exe
+E:\PathToDarkness\Projects\YBlitz\YContest\obj\Debug\YContest.pdb
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\YContest.exe
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\YContest.pdb
+E:\PathToDarkness\Projects\YBlitz\YContest\obj\Debug\YContest.csprojResolveAssemblyReference.cache
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskC-0.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskC-1.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskA-1.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskA-0.txt
