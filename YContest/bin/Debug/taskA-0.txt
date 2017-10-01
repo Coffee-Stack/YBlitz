@@ -1,3 +1,2 @@
-﻿Linux - Gentoo - 1:0
-Gentoo - Windows - 2:1
-Linux - Windows - 0:2
+﻿3
+1 2 3

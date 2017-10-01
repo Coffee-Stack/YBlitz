@@ -21,6 +21,8 @@ namespace YContest
                 TaskB.Solve(rdr, wr);
             else if (args[0] == "C")
                 TaskC.Solve(rdr, wr);
+            else if (args[0] == "D")
+                TaskD.Solve(rdr, wr);
 
             wr.Flush();
         }

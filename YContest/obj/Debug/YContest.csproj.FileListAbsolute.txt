@@ -14,3 +14,7 @@ E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskC-0.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskC-1.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskA-1.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskA-0.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-1.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-2.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-0.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-3.txt
