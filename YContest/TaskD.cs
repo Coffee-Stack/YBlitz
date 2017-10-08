@@ -51,42 +51,42 @@ namespace YContest
         public static void Solve(StreamReader rdr, StreamWriter wr)
         {
             rdr.ReadLine();
-            var vallets = rdr.ReadLine().Split(' ').Select(int.Parse).ToList();
-            vallets.Sort();
+            var wallets = rdr.ReadLine().Split(' ').Select(int.Parse).ToList();
+            var walletsFilling = new List<int>(wallets.Count);
+
+            wallets.Sort();
 
             int count = int.Parse(rdr.ReadLine());
 
-            var max = vallets.Sum();
-            var min = vallets.Last();
+            var max = wallets.Sum();
+            var min = wallets.Last();
 
             if (count > max
                 || count < min
-                || count < (min + vallets.First()))
+                || count < min + wallets.First())
             {
                 wr.Write("No");
                 return;
             }
 
-            if (count - min == 0
-                || count - (min + vallets.First()) == 0)
+            if (count == min || count == min + wallets.First())
             {
                 wr.Write("Yes");
                 return;
             }
 
-            wr.Write(CheckSubSum(count - min, vallets, vallets.Count - 2) ? "Yes" : "No");
+            wr.Write(CheckSubSum(count - min, wallets, walletsFilling, wallets.Count - 2) ? "Yes" : "No");
         }
 
-        private static bool CheckSubSum(int num,
-            List<int> vallets,
-            int pointer)
+        private static bool CheckSubSum(int num, List<int> wallets, List<int> walletsFilling, int pointer)
         {
-            if (vallets[pointer] == num)
+            if (wallets[pointer] == num)
                 return true;
 
             if (pointer > 0)
-                return CheckSubSum(num, vallets, pointer - 1) ||
-                       CheckSubSum(num - vallets[pointer], vallets, pointer - 1);
+                return (wallets[pointer] != wallets[pointer - 1] &&
+                        CheckSubSum(num, wallets, walletsFilling, pointer - 1)) ||
+                       CheckSubSum(num - wallets[pointer], wallets, walletsFilling, pointer - 1);
             return false;
         }
     }
