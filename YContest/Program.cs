@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 
 namespace YContest
@@ -15,6 +16,7 @@ namespace YContest
                 ? new StreamWriter(File.OpenRead(args[2]))
                 : new StreamWriter(Console.OpenStandardOutput());
 
+            Stopwatch st = Stopwatch.StartNew();
             if (args[0] == "A")
                 TaskA.Solve(rdr, wr);
             else if (args[0] == "B")
@@ -23,6 +25,10 @@ namespace YContest
                 TaskC.Solve(rdr, wr);
             else if (args[0] == "D")
                 TaskD.Solve(rdr, wr);
+            st.Stop();
+
+            wr.WriteLine();
+            wr.WriteLine($"{st.Elapsed}");
 
             wr.Flush();
         }

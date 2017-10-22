@@ -63,16 +63,15 @@ namespace YContest
                 wr.Write("No");
                 return;
             }
-
+            
             wr.Write(CheckSubSum(count, wallets, max, 0) ? "Yes" : "No");
         }
 
         private static bool CheckSubSum(int num, List<Wallet> wallets, int max, int pointer)
         {
-            if (pointer == wallets.Count)
+            if (pointer == wallets.Count || max < num)
                 return false;
 
-            //Console.WriteLine($"{max}/{num} || {string.Join("", wallets.Select(el => el.ToString()))}");
             if (num == max)
                 return true;
 
