@@ -12,8 +12,6 @@ E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\YContest.pdb
 E:\PathToDarkness\Projects\YBlitz\YContest\obj\Debug\YContest.csprojResolveAssemblyReference.cache
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskC-0.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskC-1.txt
-E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskA-1.txt
-E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskA-0.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-1.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-2.txt
 E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\taskD-0.txt
@@ -32,3 +30,5 @@ C:\Projects\YBlitz17\YContest\bin\Debug\YContest.pdb
 C:\Projects\YBlitz17\YContest\obj\Debug\YContest.csprojResolveAssemblyReference.cache
 C:\Projects\YBlitz17\YContest\obj\Debug\YContest.exe
 C:\Projects\YBlitz17\YContest\obj\Debug\YContest.pdb
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\TaskA\0.txt
+E:\PathToDarkness\Projects\YBlitz\YContest\bin\Debug\TaskA\1.txt

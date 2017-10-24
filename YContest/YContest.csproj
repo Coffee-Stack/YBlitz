@@ -66,37 +66,37 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaskA.cs" />
-    <Compile Include="TaskC.cs" />
-    <Compile Include="TaskB.cs" />
-    <Compile Include="TaskD.cs" />
+    <Compile Include="A\TaskA.cs" />
+    <Compile Include="B\TaskB.cs" />
+    <Compile Include="C\TaskC.cs" />
+    <Compile Include="TaskD\TaskD.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="taskC-0.txt">
+    <Content Include="A\0.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskD-1.txt">
+    <Content Include="A\1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskD-3.txt">
+    <Content Include="C\0.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskD-2.txt">
+    <Content Include="C\1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskD-0.txt">
+    <Content Include="TaskD\0.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskC-1.txt">
+    <Content Include="TaskD\1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskA-1.txt">
+    <Content Include="TaskD\2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="taskA-0.txt">
+    <Content Include="TaskD\3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

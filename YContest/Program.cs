@@ -9,11 +9,11 @@ namespace YContest
         static void Main(string[] args)
         {
             var rdr = args.Length > 1
-                ? new StreamReader(File.OpenRead(args[1]))
+                ? new StreamReader(File.OpenRead(Path.Combine(args[0], $"{args[1]}.txt")))
                 : new StreamReader(Console.OpenStandardInput());
 
             var wr = args.Length > 2
-                ? new StreamWriter(File.OpenRead(args[2]))
+                ? new StreamWriter(File.OpenRead(Path.Combine(args[0], $"{args[2]}.out.txt")))
                 : new StreamWriter(Console.OpenStandardOutput());
 
             Stopwatch st = Stopwatch.StartNew();
