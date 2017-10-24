@@ -73,22 +73,22 @@ namespace YContest
             while (numbers.Count() > 1)
             {
                 var min = numbers.First();
-                var max = numbers.Last();
 
-                var currentMax = max;
+                var max = numbers.Last();                
+                var quotient  = (max.Key - min.Key) / min.Key;
 
-                var quotient  = (currentMax.Key - min.Key) / min.Key;
                 while (quotient > 0)
                 {
-                    iterations += (long)quotient * currentMax.Value;
-                    numbers.Remove(currentMax.Key);
+                    iterations += (long)quotient * max.Value;
+                    numbers.Remove(max.Key);
 
-                    var newKey = currentMax.Key - quotient * min.Key;
+                    var newKey = max.Key - quotient * min.Key;
                     AddKey(numbers, newKey);
 
-                    numbers[newKey] += currentMax.Value;
-                    currentMax = numbers.Last();
-                    quotient = (currentMax.Key - 2 * min.Key) / min.Key;
+                    numbers[newKey] += max.Value;
+
+                    max = numbers.Last();
+                    quotient = (max.Key - min.Key) / min.Key;
                 }
 
                 if (numbers.Count() == 1)
