@@ -29,6 +29,8 @@ namespace YContest
                 run = (rdr, wr) => TaskC_Sofi.Solve(rdr, wr);
             else if (taskName == "D_Sofi")
                 run = (rdr, wr) => TaskD_Sofi.Solve(rdr, wr);
+            else if (taskName == "F_Sofi")
+                run = (rdr, wr) => TaskF_Sofi.Solve(rdr, wr);
             else
             {
                 Console.WriteLine("Uncorrect task name");
