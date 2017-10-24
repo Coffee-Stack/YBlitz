@@ -7,7 +7,7 @@ namespace YContest
 {
     class Program
     {
-        private static readonly bool _showWrongAnswerDetails = false;
+        private static readonly bool _showWrongAnswerDetails = true;
         private static readonly bool _showRuntimeErrorDetails = false;
         private static readonly bool _exitAfterError = true;
 
@@ -27,6 +27,8 @@ namespace YContest
                 run = (rdr, wr) => TaskD.Solve(rdr, wr);
             else if (taskName == "C_Sofi")
                 run = (rdr, wr) => TaskC_Sofi.Solve(rdr, wr);
+            else if (taskName == "D_Sofi")
+                run = (rdr, wr) => TaskD_Sofi.Solve(rdr, wr);
             else
             {
                 Console.WriteLine("Uncorrect task name");
