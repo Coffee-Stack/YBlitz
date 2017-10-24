@@ -1,0 +1,3 @@
+﻿Result Vasya A 500 B 2500
+Result Petya A 2500 B 500
+Result Kolya A 3000

@@ -28,7 +28,7 @@ namespace YContest
             foreach (var cnum in cnums)
                 nums.Remove(cnum);
 
-            wr.Write($"Minimal:{nums.Min()}");
+            wr.Write($"{nums.Min()}");
         }
 
         private static int S(int number)

@@ -1,0 +1,9 @@
+﻿Result Vasya A 500 B 2500 D 450
+Result Petya A 100 B 200 C 5000 D 500
+Result Kolya A 10 E 10
+Result Irina
+Kolya Vasya A FAIL
+Kolya Vasya B FAIL
+Petya Vasya A OK
+Vasya Petya C FAIL
+Irina Vasya D OK
